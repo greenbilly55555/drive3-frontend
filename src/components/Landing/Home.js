@@ -38,9 +38,9 @@ export default function Home() {
             }
           </div>
           <div className='flex flex-row gap-5 text-white'>
-            <a href="https://twitter.com/ethdrive_net" target="_blank"><FaXTwitter className='w-6 h-6 cursor-pointer hover:translate-y-[-5px] transition-transform duration-700'/></a>
-            <a href="https://t.me/ethdriveglobal" target="_blank"><PiTelegramLogo className='w-6 h-6 cursor-pointer hover:translate-y-[-5px] transition-transform duration-700'/></a>
-            <a href="https://github.com/ethdriveio/ethdriveui.git" target="_blank"><FiGithub  className='w-6 h-6 cursor-pointer hover:translate-y-[-5px] transition-transform duration-700'/></a>
+            <a href="https://twitter.com/drive3_net" target="_blank"><FaXTwitter className='w-6 h-6 cursor-pointer hover:translate-y-[-5px] transition-transform duration-700'/></a>
+            <a href="https://t.me/drive3global" target="_blank"><PiTelegramLogo className='w-6 h-6 cursor-pointer hover:translate-y-[-5px] transition-transform duration-700'/></a>
+            <a href="https://github.com/drive3net" target="_blank"><FiGithub  className='w-6 h-6 cursor-pointer hover:translate-y-[-5px] transition-transform duration-700'/></a>
           </div>
         </div>
       </div>

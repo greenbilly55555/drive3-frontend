@@ -1,0 +1,58 @@
+.App {
+    font-family: 'Montserrat' !important;
+}
+
+/* _lg */
+@media only screen and (max-width: 1440px) {
+
+}
+
+/* _md */
+@media only screen and (max-width: 1020px) {
+
+}
+
+/* _sm */
+@media only screen and (max-width: 840px) {
+
+}
+
+/* _mobile */
+@media only screen and (max-width: 500px) {
+
+}
+
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0); /* Black w/ opacity */
+}
+
+.loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #292C51;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); } 
+    100% { transform: rotate(360deg); }
+}
